@@ -1,1 +1,115 @@
-<h1> Hi </h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Violet Hall</div>
+        <ul class="nav-links">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content-container">
+      <!-- Skills Section -->
+      <section class="skills-section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-list">
+          <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <p>HTML5, CSS3, JavaScript, React</p>
+          </div>
+          <div class="skill-card">
+            <h3>Backend Development</h3>
+            <p>Node.js, Python, PHP,</p>
+          </div>
+          <div class="skill-card">
+            <h3>Software Development</h3>
+            <p>Java, C, C#, Rust, Bash</p>
+          </div>
+          <div class="skill-card">
+            <h3>Database Management</h3>
+            <p>MySQL, SQLite</p>
+          </div>
+          <div class="skill-card">
+            <h3>Server Administration</h3>
+            <p>Docker, Kubernetes</p>
+          </div>
+          <div class="skill-card">
+            <h3>Game Development</h3>
+            <p>Godot, Unity, Raylib, RPGMaker</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects-grid" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <article class="project-card" onclick="window.location.href='https://violetdh.github.io/portfolio/'">
+          <div class="project-image"></div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio website showcasing my projects.</p>
+          </div>
+        </article>
+        <article class="project-card" onclick="window.location.href='https://github.com/violetdh/vr_atom'">
+          <div class="project-image"><img src="img/atom.png" style="object-position: top;"></div>
+          <div class="project-content">
+            <h3>VR Atom</h3>
+            <p>A customisable VR model of an atom, made using WebXR and Three.js.</p>
+          </div>
+        </article>
+        <article class="project-card" onclick="window.location.href='https://github.com/violetdh/demon-dungeon'">
+          <div class="project-image"><img src="img/demon_dungeon.png"></div>
+          <div class="project-content">
+            <h3>Dungeon Crawler</h3>
+            <p>Small snippet of a dungeon crawler, made with Godot Engine.</p>
+          </div>
+        </article>
+        <article class="project-card" onclick="window.location.href='https://thevioletcircus.itch.io/psychotechnician-simulator'">
+          <div class="project-image"><img src="img/rpgjam.png"></div>
+          <div class="project-content">
+            <h3>Psythotechnician Sim</h3>
+            <p>An RPGMaker game made in under two weeks for a jam that I joined late.</p>
+          </div>
+        </article>
+        <article class="project-card" onclick="window.location.href='https://github.com/violetdh/obsidian_backup'">
+          <div class="project-image"><img src="img/backup.png"></div>
+          <div class="project-content">
+            <h3>Backup Script</h3>
+            <p>A script I wrote in python to keep my obsidian vault backed up. I run it as a daily cron job on a raspberry pi.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Contact Section -->
+      <!-- <section class="contact-section" id="contact"> -->
+      <!--   <h2>Get in Touch</h2> -->
+      <!--   <form class="contact-form"> -->
+      <!--     <div class="form-group"> -->
+      <!--       <label for="name">Name:</label> -->
+      <!--       <input type="text" id="name" required> -->
+      <!--     </div> -->
+      <!--     <div class="form-group"> -->
+      <!--       <label for="email">Email:</label> -->
+      <!--       <input type="email" id="email" required> -->
+      <!--     </div> -->
+      <!--     <div class="form-group"> -->
+      <!--       <label for="message">Message:</label> -->
+      <!--       <textarea id="message" rows="5" required></textarea> -->
+      <!--     </div> -->
+      <!--     <button type="submit">Send Message</button> -->
+      <!--   </form> -->
+      <!-- </section> -->
+    </div>
+
+  </body>
+</html>
