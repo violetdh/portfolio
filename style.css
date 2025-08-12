@@ -67,7 +67,7 @@ nav {
   display: grid;
   grid-template-columns: 350px 1fr;
   gap: 2rem;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -76,7 +76,7 @@ nav {
     grid-column: 1 / -1;  /* This makes the title span all columns */
     background: none;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     border-bottom: 2px solid #eee;
 }
 
@@ -87,6 +87,7 @@ nav {
 }
 
 .skills-list {
+  padding-top: 1.1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
